@@ -3,7 +3,9 @@ body {
   width: 1600px; }
 
 header {
-  background-color: #FFF; }
+  width: 100%;
+  background-color: #FFF;
+  height: 80px; }
   header nav {
     display: inline-block; }
     header nav ul {
@@ -11,20 +13,43 @@ header {
       margin: 0px;
       padding: 0px; }
       header nav ul li {
+        height: 60px;
+        line-height: 3;
         list-style-type: none;
         display: inline-block;
         font-family: "Asap", sans-serif;
         font-size: 18px;
         font-weight: bold;
-        padding-right: 10px; }
+        padding-right: 5px; }
+        header nav ul li a {
+          text-decoration: none;
+          color: #999; }
   header .page_links {
-    padding-left: 300px;
-    color: #333; }
+    position: absolute;
+    left: 22%; }
+    header .page_links ul li {
+      margin-right: 10px;
+      margin-top: 5px; }
+    header .page_links ul .current_active a {
+      color: #333; }
   header .upcomer_logo {
     display: inline-block;
-    margin-left: 280px;
-    padding-top: 20px; }
+    padding-top: 12px;
+    position: absolute;
+    margin-top: 5px;
+    left: 53%; }
     header .upcomer_logo img {
       width: 150px; }
+  header .social_links {
+    position: absolute;
+    right: 5%;
+    margin-top: 12px; }
+    header .social_links img {
+      opacity: 1; }
+      header .social_links img:hover {
+        opacity: 0.8; }
+
+main .news_letter {
+  background-image: url("/images/bg1_repeat.png"); }
 
 /*# sourceMappingURL=styles.css.map */

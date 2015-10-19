@@ -10,7 +10,9 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: $whitecolor;
+    height: 80px;
     nav {
         display: inline-block;
         ul {
@@ -18,27 +20,66 @@ header {
             margin: 0px;
             padding: 0px;
             li {
+                height: 60px;
+                line-height: 3;
                 list-style-type: none;
                 display: inline-block;
                 font-family: $page_link_font;
                 font-size: $page_link_size;
                 font-weight: bold;
-                padding-right: 10px;
+                padding-right: 5px;
 
+                a {
+                    text-decoration: none;
+                    color: #999;
+                }
             }
         }
     }
     .page_links {
-        padding-left: 300px;
-        color: #333;
+        position: absolute;
+        left: 22%;
+
+        ul {
+            li{
+                margin-right: 10px;
+                margin-top: 5px;
+            }
+            .current_active {
+                a {
+                    color: #333;
+                }
+            }
+        }
     }
     .upcomer_logo {
         display: inline-block;
-        margin-left: 280px;
-        padding-top: 20px;
+        padding-top: 12px;
+        position: absolute;
+        margin-top: 5px;
+        left: 53%;
 
         img {
             width: 150px;
         }
+    }
+    .social_links {
+        position: absolute;
+        right: 5%;
+        margin-top: 12px;
+
+        img{
+            opacity: 1;
+
+             &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+}
+
+main {
+    .news_letter {
+        background-image: url("/images/bg1_repeat.png");
     }
 }
