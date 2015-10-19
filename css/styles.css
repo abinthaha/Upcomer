@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700);
+body {
+  width: 1600px; }
+
+header {
+  background-color: #FFF; }
+  header nav {
+    display: inline-block; }
+    header nav ul {
+      display: inline-block;
+      margin: 0px;
+      padding: 0px; }
+      header nav ul li {
+        list-style-type: none;
+        display: inline-block;
+        font-family: "Asap", sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        padding-right: 10px; }
+  header .page_links {
+    padding-left: 300px;
+    color: #333; }
+  header .upcomer_logo {
+    display: inline-block;
+    margin-left: 280px;
+    padding-top: 20px; }
+    header .upcomer_logo img {
+      width: 150px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,44 @@
+@import "fonts.scss";
+
+$page_link_font: 'Asap', sans-serif;
+$page_link_size: 18px;
+
+$whitecolor : #FFF;
+
+body {
+    width: 1600px;
+}
+
+header {
+    background-color: $whitecolor;
+    nav {
+        display: inline-block;
+        ul {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px;
+            li {
+                list-style-type: none;
+                display: inline-block;
+                font-family: $page_link_font;
+                font-size: $page_link_size;
+                font-weight: bold;
+                padding-right: 10px;
+
+            }
+        }
+    }
+    .page_links {
+        padding-left: 300px;
+        color: #333;
+    }
+    .upcomer_logo {
+        display: inline-block;
+        margin-left: 280px;
+        padding-top: 20px;
+
+        img {
+            width: 150px;
+        }
+    }
+}
