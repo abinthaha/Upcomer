@@ -51,7 +51,7 @@ header {
         opacity: 0.8; }
 
 main .news_letter {
-  background-image: url("/images/bg1_repeat.png");
+  background-image: url("Upcomer/images/bg1_repeat.png");
   height: 620px;
   text-align: center;
   font-family: "Asap", sans-serif;
