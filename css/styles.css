@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Asap:400,700);
 body {
-  width: 1600px; }
+  width: 1600px;
+  margin-left: 0px; }
 
 header {
   width: 100%;
   background-color: #FFF;
-  height: 80px; }
+  height: 72px; }
   header nav {
     display: inline-block; }
     header nav ul {
@@ -26,7 +27,7 @@ header {
           color: #999; }
   header .page_links {
     position: absolute;
-    left: 22%; }
+    left: 22.2%; }
     header .page_links ul li {
       margin-right: 10px;
       margin-top: 5px; }
@@ -37,12 +38,12 @@ header {
     padding-top: 12px;
     position: absolute;
     margin-top: 5px;
-    left: 53%; }
+    left: 53.5%; }
     header .upcomer_logo img {
       width: 150px; }
   header .social_links {
     position: absolute;
-    right: 5%;
+    right: 3.5%;
     margin-top: 12px; }
     header .social_links img {
       opacity: 1; }
@@ -50,6 +51,53 @@ header {
         opacity: 0.8; }
 
 main .news_letter {
-  background-image: url("/images/bg1_repeat.png"); }
+  background-image: url("/images/bg1_repeat.png");
+  height: 620px;
+  text-align: center;
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  color: #FFF;
+  font-size: 24px; }
+  main .news_letter .head {
+    font-size: 52px;
+    font-weight: bold;
+    padding-top: 78px; }
+  main .news_letter .content {
+    font-weight: 500;
+    padding-top: 40px;
+    line-height: 1.4; }
+  main .news_letter #label {
+    margin-top: 35px; }
+  main .news_letter form {
+    margin: 20px 0px; }
+    main .news_letter form input {
+      height: 60px;
+      width: 269px;
+      outline: none;
+      background-color: rgba(255, 255, 255, 0.3);
+      border: none;
+      border-radius: 30px 0px 0px 30px;
+      padding-left: 40px;
+      font-family: "Asap", sans-serif;
+      font-size: 20.3px;
+      font-weight: 500;
+      color: white; }
+    main .news_letter form button {
+      height: 62px;
+      width: 81px;
+      background-color: #2ecc71;
+      border: none;
+      border-radius: 0px 30px 30px 0px;
+      font-family: "Asap", sans-serif;
+      font-size: 20.3px;
+      font-weight: 500;
+      color: #FFF;
+      margin-left: -10px; }
+    main .news_letter form div {
+      font-family: "Asap", sans-serif;
+      font-size: 16px;
+      padding-top: 15px; }
+  main .news_letter footer {
+    padding-top: 35px; }
 
 /*# sourceMappingURL=styles.css.map */
