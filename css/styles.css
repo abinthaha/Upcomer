@@ -184,5 +184,11 @@ footer .upcomeriscoming {
     color: #fff;
     margin-top: 110px;
     margin-left: -70px; }
+footer .footer_social_links {
+  height: 80px;
+  padding-top: 50px;
+  text-align: center; }
+  footer .footer_social_links img {
+    margin-right: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
