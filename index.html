@@ -7,6 +7,9 @@
 </head>
 <body>
     <header>
+        <div class="menu_btn" onclick="show_hidden_menu()">
+            <img src="images/menu.png" alt="" />
+        </div>
         <nav class="page_links">
             <ul>
                 <li class="current_active">
@@ -31,25 +34,55 @@
             </ul>
         </nav>
     </header>
+    <div class="hidden_header" id="hidden_header">
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+        </ul>
+    </div>
     <main>
-        <article class="news_letter">
+        <article class="news_letter" id="main_news_letter">
             <div class="news_head">
-                Stay updated on upcoming <br/>tech products you love
+                Stay updated on upcoming tech products you love
             </div>
 
             <section class="news_content">
-                We made it a whole lot easier for you to always stay <br/> updated on upcoming tech products you care about
+                We made it a whole lot easier for you to always stay updated on upcoming tech products you care about
             </section>
             <section id="label">
                 Be the first to try Upcomer
             </section>
-            <form class="newsletter_form">
+            <div class="newsletter_form">
                 <input type="text" placeholder="Enter your email">
-                <button type="submit">Ok</button>
+                <button onclick="toggleView()">Ok</button>
                 <div class="">
                     Coming to Android and iOS first half of 2015
                 </div>
-            </form>
+            </div>
+            <footer>
+                <span>
+                    <img src="images/down-arrow.png" alt="" />
+                </span>
+            </footer>
+        </article>
+        <article class="news_letter hide_noti" id="hidden_div">
+            <div class="news_head">
+                We have added your email address to the sign-up queue
+            </div>
+
+            <section class="news_content">
+                We will let you know as soon as you can get Upcomer.
+                Be sure your friends don't miss out!
+            </section>
+            <section class="share_links">
+                <img src="images/fb_share.png" alt="" />
+                <img src="images/tweet_share.png" alt="" />
+                <img src="images/email_share.png" alt="" />
+            </section>
             <footer>
                 <span>
                     <img src="images/down-arrow.png" alt="" />
@@ -57,40 +90,50 @@
             </footer>
         </article>
         <article class="personalize">
-            <div class="head">
-                Personalize your feed
+            <div class="wrapper">
+                <div class="head">
+                    Personalize your feed
+                </div>
+                <section class="content">
+                    Choose your favourite brands and product categories to
+                    get notified  as soon as a new product is announced
+                </section>
             </div>
-            <section class="content">
-                Choose your favourite brands and product categories to <br/>
-                get notified  as soon as a new product is annpunced
-            </section>
-                <img src="images/feed_bg.png" alt="" />
+            <img src="images/feed_bg.png" alt="" />
         </article>
         <article class="all_in_one_place">
-            <img src="images/illustration.png" alt="" />
-            <div class="head">
-                All in one place
+            <div class="wrapper">
+                <div class="head">
+                    All in one place
+                </div>
+                <section class="content">
+                    Follow products to get most important updates
+                    such as release date, price, specifications, reviews,
+                    give aways and more in your personal feed
+                </section>
             </div>
-            <section class="content">
-                Follow products to get most important updates<br/>
-                such as release date, price, specifications, reviews, <br/>
-                give aways and more in your personal feed
-            </section>
+            <div class="img">
+                <img src="images/illustration.png" alt="" />
+            </div>
         </article>
         <article class="be_first_to_know">
-            <div class="head">
-                Be first to know
+            <div class="wrapper">
+                <div class="head">
+                    Be first to know
+                </div>
+                <section class="content">
+                    Get push notifications when something big happens
+                    such as new product, beta sign up or when you
+                    can buy or pre-order a product
+                </section>
             </div>
-            <section class="content">
-                Get push notifications when something big happens <br/>
-                such as new product, beta sign up or when you<br/>
-                can buy or pre-order a product
-            </section>
-            <img src="images/be_first.png" alt="" />
+            <div class="img">
+                <img src="images/be_first.png" alt="" id="be_first_img"/>
+            </div>
         </article>
         <article class="news_letter_footer">
             <div class="news_content">
-                The first 5000 people to sign up will get an <b>"early adopter priority"</b> for 6 months <br/>
+                The first 5000 people to sign up will get an <b>"early adopter priority"</b> for 6 months
                 which gives you a higher priority when we give away brand new products
             </div>
             <div class="news_content">
@@ -117,5 +160,6 @@
             <img src="images/tweet-icon.png" alt="" />
         </section>
     </footer>
+    <script src="scripts/script.js" charset="utf-8"></script>
 </body>
 </html>
