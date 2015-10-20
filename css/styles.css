@@ -4,6 +4,8 @@ body {
   margin-left: 0px; }
 
 header {
+  position: fixed;
+  top: 0px;
   width: 100%;
   background-color: #FFF;
   height: 72px; }
@@ -58,11 +60,11 @@ main .news_letter {
   text-align: center;
   color: #FFF;
   font-size: 24px; }
-  main .news_letter .head {
+  main .news_letter .news_head {
     font-size: 52px;
     font-weight: bold;
     padding-top: 78px; }
-  main .news_letter .content {
+  main .news_letter .news_content {
     font-weight: 500;
     padding-top: 40px;
     line-height: 1.4; }
@@ -90,14 +92,32 @@ main .news_letter {
       border-radius: 0px 30px 30px 0px;
       font-family: "Asap", sans-serif;
       font-size: 20.3px;
+      cursor: pointer;
       font-weight: 500;
       color: #FFF;
-      margin-left: -10px; }
+      margin-left: -10px;
+      transition: all 0.3s linear; }
+      main .news_letter form button:hover {
+        background-color: #179c50; }
     main .news_letter form div {
       font-family: "Asap", sans-serif;
       font-size: 16px;
       padding-top: 15px; }
   main .news_letter footer {
-    padding-top: 20px; }
+    padding-top: 15px; }
+main .head {
+  font-family: "Asap", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; }
+main .content {
+  font-family: "Asap", sans-serif;
+  font-size: 20px;
+  color: #999; }
+main .personalize {
+  text-align: center;
+  padding-top: 120px; }
+  main .personalize .head {
+    margin-bottom: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
