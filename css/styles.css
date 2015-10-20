@@ -52,7 +52,7 @@ header {
 
 main .news_letter {
   background-image: url("/images/bg1_repeat.png");
-  height: 620px;
+  height: 600px;
   text-align: center;
   font-family: "Asap", sans-serif;
   text-align: center;
@@ -98,6 +98,6 @@ main .news_letter {
       font-size: 16px;
       padding-top: 15px; }
   main .news_letter footer {
-    padding-top: 35px; }
+    padding-top: 20px; }
 
 /*# sourceMappingURL=styles.css.map */
