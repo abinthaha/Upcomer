@@ -8,6 +8,7 @@ body {
 }
 header {
     position: fixed;
+    z-index: 100;
     top: 0;
     width: 100%;
     background-color: $whitecolor;
@@ -141,34 +142,67 @@ main {
         font-size: 36px;
         font-weight: bold;
         color: #333;
+        z-index: 10;
     }
     .content {
         font-family: $page_link_font;
         font-size: 20px;
+        line-height: 1.5;
         color: #999;
     }
     .personalize {
         text-align: center;
+        background-color: #fff;
         padding-top: 120px;
         .head {
             margin-bottom: 50px;
         }
     }
-    .illustration {
+    .all_in_one_place {
         margin-top: 145px;
-        img {
-            float: left;
-            margin-left: 20%;
+        margin-left: 20%;
+        background-color: #f5f5f5;
+        img{
+            margin-right: 50px;
         }
         .head {
+            display: inline-block;
+            width: 40%;
             position: absolute;
-            right: 20%;
             margin-top: 50px;
         }
         .content {
+            display: inline-block;
             position: absolute;
-            right: 6%;
-            margin-top: 130px;
+            margin-top: 140px;
         }
+    }
+    .be_first_to_know {
+        margin-top: 100px;
+        background-color: #f5f5f5;
+
+        .head {
+            display: inline-block;
+            width: 55%;
+            text-align: right;
+            position: absolute;
+            margin-top: 80px;
+        }
+        .content {
+            display: inline-block;
+            width: 55%;
+            text-align: right;
+            position: absolute;
+            margin-top: 160px;
+        }
+        img {
+            float: right;
+            margin-right: 20%;
+        }
+    }
+    .news_letter_footer {
+        background-image: url("/images/bg2.png");
+        height: 460px;
+        margin-top: 585px;
     }
 }
