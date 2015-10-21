@@ -295,18 +295,174 @@ main {
         padding-top: 75px;
         display: flex;
         flex-direction: row;
-
         .wrapper {
             width: 50%;
             padding-left: 10%;
-
             .content {
                 width: 100%;
             }
         }
         .img {
             width: 35%;
+        }
+    }
+    .timeline {
+        background-color: #f5f5f5;
+        height: 850px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .circle_container {
+            width: 100%;
+            background-color: $whitecolor;
+            .top_circle {
+                width: 100px;
+                height: 100px;
+                background-color: #f5f5f5;
+                margin: -5% 45%;
+                line-height: 4.4;
+                text-align: center;
+                position: absolute;
+                border: 7px solid $whitecolor;
+                border-radius: 50%;
+                span {
+                    font-family: $page_link_font;
+                    font-size: 22px;
+                    font-weight: bold;
+                    color: #999;
+                }
+            }
+            .bottom_circle {
+                background-color: #e74c3c;
+                text-align: center;
+                height: 100px;
+                width: 100px;
+                left: 45.5%;
+                position: absolute;
+                border-radius: 50%;
+                line-height: 4.5;
+                font-size: 22px;
+                margin-top: -30px;
+                color: white;
+                font-family: $page_link_font;
+                font-weight: bold;
+            }
+        }
+        .section_left {
+            width: 42%;
+            float: left;
+            display: flex;
+            padding-top: 50px;
+            margin-left: 95px;
+            border-right: 7px solid $whitecolor;
+            .section_content {
+                margin-left: 10px;
+                height: 140px;
+            }
+        }
+        .section_right {
 
+            // float: right;
+            // position: absolute;
+            width: 40%;
+            display: flex;
+            margin-top: 230px;
+            margin-left: 50px;
+        }
+        .section_content {
+            background-color: $whitecolor;
+            padding: 1px 20px;
+            border-radius: 10px;
+            width: 80%;
+            h3 {
+                font-family: $page_link_font;
+                font-size: 22px;
+                font-weight: bold;
+                color: #333;
+            }
+            p {
+                font-family: $page_link_font;
+                font-size: 20px;
+                color: #999;
+            }
+        }
+        .circle_small {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .circle1,
+        .circle3 {
+            margin-left: 26px;
+            margin-top: 45px;
+        }
+        .circle2,
+        .circle4 {
+            margin-left: -73px;
+            margin-top: 45px;
+        }
+        .circle1 {
+            background-color: #ffc3bd;
+        }
+        .circle2 {
+            background-color: #fa9d93;
+        }
+        .circle3 {
+            background-color: #ed8074;
+        }
+        .circle4 {
+            background-color: #ec675a;
+        }
+        .tooltip_left {
+            width: 0;
+            margin-top: 50px;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-left: 20px solid $whitecolor;
+        }
+        .tooltip_right {
+            width: 0;
+            margin-top: 50px;
+            height: 0;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            border-right: 20px solid $whitecolor;
+        }
+    }
+    .join_us {
+        padding: 100px 0px;
+        font-family: $page_link_font;
+        text-align: center;
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+        }
+        p {
+            font-size: 20px;
+            width: 70%;
+            margin-left: 15%;
+            line-height: 1.6;
+            color: #999;
+        }
+        .green_button{
+            background-color: #2ecc71;
+            border-radius: 30px;
+            height: 60px;
+            color: white;
+            font-family: $page_link_font;
+            font-size: 20px;
+            width: 310px;
+            outline: none;
+            border: none;
+            transition: all 0.3s linear;
+
+            &:hover {
+                background-color: #179c50;
+            }
         }
     }
 }
@@ -355,6 +511,7 @@ footer {
     position: absolute;
 }
 .show_noti {
+
     // display: block;
     z-index: 95;
 }
@@ -362,6 +519,7 @@ footer {
     display: none;
     z-index: 90;
     left: -100%;
+
     // margin-top: 500px;
     position: absolute;
 }
