@@ -8,7 +8,7 @@ body {
 }
 header {
     position: fixed;
-    box-shadow: 0 3px 8px #888;
+    box-shadow: 0 2px 5px #888;
     z-index: 100;
     top: 0;
     width: 100%;
@@ -290,6 +290,24 @@ main {
         margin-top: 100px;
         text-align: center;
         padding-top: 65px;
+    }
+    .why_we_do {
+        padding-top: 75px;
+        display: flex;
+        flex-direction: row;
+
+        .wrapper {
+            width: 50%;
+            padding-left: 10%;
+
+            .content {
+                width: 100%;
+            }
+        }
+        .img {
+            width: 35%;
+
+        }
     }
 }
 footer {

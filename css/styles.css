@@ -5,7 +5,7 @@ body {
 
 header {
   position: fixed;
-  box-shadow: 0 3px 8px #888;
+  box-shadow: 0 2px 5px #888;
   z-index: 100;
   top: 0;
   width: 100%;
@@ -236,6 +236,17 @@ main {
     margin-top: 100px;
     text-align: center;
     padding-top: 65px; }
+  main .why_we_do {
+    padding-top: 75px;
+    display: flex;
+    flex-direction: row; }
+    main .why_we_do .wrapper {
+      width: 50%;
+      padding-left: 10%; }
+      main .why_we_do .wrapper .content {
+        width: 100%; }
+    main .why_we_do .img {
+      width: 35%; }
 
 footer .upcomeriscoming {
   height: 300px;
