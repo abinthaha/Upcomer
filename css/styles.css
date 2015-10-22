@@ -540,6 +540,9 @@ footer .footer_social_links {
       margin-top: 20px; }
     main article #be_first_img {
       margin-right: 10%; }
+  main .news_letter img {
+    width: initial;
+    height: initial; }
   main .be_first_to_know img {
     height: auto; }
 
