@@ -14,3 +14,9 @@ function show_hidden_menu() {
         hidden_menu.className = "hidden_header show";
     }
 }
+function show_personalize() {
+    // window.scrollTo(0,0);
+    var element = document.getElementById('#personalize');
+    element.scrollIntoView();
+    console.log('click');
+}

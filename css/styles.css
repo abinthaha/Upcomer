@@ -76,7 +76,7 @@ header {
 
 .hidden_header {
   left: -100%;
-  position: absolute;
+  position: fixed;
   width: 50%;
   height: 100%;
   transition: all 0.5s linear; }
@@ -127,12 +127,15 @@ main {
     main .news_letter #label {
       margin-top: 35px; }
     main .news_letter footer {
-      padding-top: 25px; }
+      padding-top: 90px; }
+      main .news_letter footer img {
+        cursor: pointer; }
   main .news_content {
     font-family: "Asap", sans-serif;
     font-size: 24px;
     font-weight: 500;
     padding-left: 10px;
+    padding-top: 40px;
     color: #fff;
     line-height: 1.4;
     display: inline-block;
@@ -186,6 +189,7 @@ main {
       padding-top: 15px;
       color: #fff; }
   main .personalize {
+    transition: all 0.5s linear;
     text-align: center;
     background-color: #fff;
     padding-top: 50px; }
@@ -231,7 +235,6 @@ main {
       left: 50%; }
   main .news_letter_footer {
     background-image: url("/Upcomer/images/bg2.png");
-    height: 395px;
     margin-top: 100px;
     text-align: center;
     padding-top: 65px; }
@@ -423,10 +426,14 @@ footer .footer_social_links {
   position: absolute; }
 
 @media (max-width: 1100px) {
+  main .news_letter footer {
+    padding-top: 30px; }
   main .timeline .circle1,
   main .timeline .circle3 {
     margin-left: 0.5%; } }
 @media (max-width: 1024px) {
+  main .news_letter footer {
+    padding-top: 30px; }
   main .join_us {
     display: flex;
     flex-direction: column;
@@ -510,9 +517,7 @@ footer .footer_social_links {
     main .news_letter img {
       width: initial; }
     main .news_letter footer {
-      position: absolute;
-      bottom: -20px;
-      left: 40%; }
+      padding-top: 115px; }
   main .personalize .wrapper {
     padding-top: 50px; }
     main .personalize .wrapper .head {
@@ -556,6 +561,8 @@ footer .footer_social_links {
     flex-direction: column; }
   main .news_letter .news_head {
     font-size: 38px; }
+  main .news_letter footer {
+    padding-top: 147px; }
   main .news_letter_footer {
     margin-top: 100px; }
     main .news_letter_footer .news_content {
@@ -683,6 +690,9 @@ footer .footer_social_links {
       height: 160px;
       margin-top: 40px;
       margin-left: 0; } }
+@media (max-width: 463px) {
+  main .news_letter footer {
+    padding-top: 105px; } }
 @media (max-width: 410px) {
   header .upcomer_logo {
     left: 20%; }
@@ -716,5 +726,8 @@ footer .footer_social_links {
     height: 450px; }
     main .news_letter_footer .newsletter_form input {
       width: 50%; } }
+@media (max-width: 320px) {
+  main .news_letter footer {
+    padding-top: 85px; } }
 
 /*# sourceMappingURL=styles.css.map */
