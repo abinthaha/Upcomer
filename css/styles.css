@@ -133,7 +133,6 @@ main {
     font-size: 24px;
     font-weight: 500;
     padding-left: 10px;
-    padding-top: 40px;
     color: #fff;
     line-height: 1.4;
     display: inline-block;
@@ -232,7 +231,7 @@ main {
       left: 50%; }
   main .news_letter_footer {
     background-image: url("/Upcomer/images/bg2.png");
-    height: 450px;
+    height: 395px;
     margin-top: 100px;
     text-align: center;
     padding-top: 65px; }
