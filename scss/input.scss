@@ -762,7 +762,6 @@ footer {
         }
         .be_first_to_know {
             height: 500px;
-            margin-top: 50px;
             display: flex;
             flex-direction: column;
             .wrapper {
@@ -789,6 +788,7 @@ footer {
             }
         }
         .all_in_one_place {
+            padding-top: 0px;
             display: flex;
             flex-direction: column;
             .wrapper {

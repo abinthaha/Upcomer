@@ -571,7 +571,6 @@ footer .footer_social_links {
       font-size: 18px; }
   main .be_first_to_know {
     height: 500px;
-    margin-top: 50px;
     display: flex;
     flex-direction: column; }
     main .be_first_to_know .wrapper {
@@ -592,6 +591,7 @@ footer .footer_social_links {
       main .be_first_to_know .img img {
         position: static; }
   main .all_in_one_place {
+    padding-top: 0px;
     display: flex;
     flex-direction: column; }
     main .all_in_one_place .wrapper {
