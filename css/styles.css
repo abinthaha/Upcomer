@@ -542,7 +542,8 @@ footer .footer_social_links {
     width: initial;
     height: initial; }
   main .be_first_to_know img {
-    height: auto; }
+    height: auto;
+    width: 50%; }
 
   footer .upcomeriscoming img {
     margin-left: 15%; } }
