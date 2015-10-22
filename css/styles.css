@@ -107,7 +107,6 @@ main {
   width: 100%; }
   main .news_letter {
     background-image: url("/Upcomer/images/bg1_repeat.png");
-    height: 600px;
     text-align: center;
     font-family: "Asap", sans-serif;
     text-align: center;
@@ -126,7 +125,7 @@ main {
       padding-top: 78px;
       word-wrap: wrap; }
     main .news_letter #label {
-      margin-top: 35px; }
+      margin: 35px 0px; }
     main .news_letter footer {
       padding-top: 125px; }
       main .news_letter footer img {

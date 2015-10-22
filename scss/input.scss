@@ -135,7 +135,6 @@ main {
     width: 100%;
     .news_letter {
         background-image: url("/Upcomer/images/bg1_repeat.png");
-        height: 600px;
         text-align: center;
         font-family: $page_link_font;
         text-align: center;
@@ -158,7 +157,7 @@ main {
             word-wrap: wrap;
         }
         #label {
-            margin-top: 35px;
+            margin: 35px 0px;
         }
         footer {
             padding-top: 125px;
