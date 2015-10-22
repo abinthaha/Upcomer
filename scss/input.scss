@@ -102,6 +102,7 @@ header {
     left: -100%;
     position: fixed;
     width: 50%;
+    z-index: 3000;
     height: 100%;
     transition: all 0.5s linear;
     ul {
@@ -133,7 +134,7 @@ main {
     margin-top: 73px;
     width: 100%;
     .news_letter {
-        background-image: url("/Upcomer/images/bg1_repeat.png");
+        background-image: url("/images/bg1_repeat.png");
         height: 600px;
         text-align: center;
         font-family: $page_link_font;
@@ -160,7 +161,7 @@ main {
             margin-top: 35px;
         }
         footer {
-            padding-top: 90px;
+            padding-top: 125px;
             img {
                 cursor: pointer;
             }
@@ -287,7 +288,7 @@ main {
         }
     }
     .news_letter_footer {
-        background-image: url("/Upcomer/images/bg2.png");
+        background-image: url("/images/bg2.png");
         margin-top: 100px;
         text-align: center;
         padding-top: 65px;
@@ -526,7 +527,7 @@ footer {
     main {
         .news_letter {
             footer {
-                padding-top: 30px;
+                padding-top: 65px;
             }
         }
         .timeline {
@@ -541,7 +542,7 @@ footer {
     main {
         .news_letter {
             footer {
-                padding-top: 30px;
+                padding-top: 65px;
             }
         }
         .join_us {
@@ -663,7 +664,7 @@ footer {
                 width: initial;
             }
             footer {
-                padding-top: 115px;
+                padding-top: 151px;
             }
         }
         .personalize {
@@ -741,7 +742,7 @@ footer {
                 font-size: 38px;
             }
             footer {
-                padding-top: 147px;
+                padding-top: 185px;
             }
         }
         .news_letter_footer {
@@ -976,7 +977,7 @@ footer {
     main {
         .news_letter {
             footer {
-                padding-top: 105px;
+                padding-top: 145px;
             }
         }
     }
@@ -1046,7 +1047,7 @@ footer {
     main {
         .news_letter {
             footer {
-                padding-top: 85px;
+                padding-top: 125px;
             }
         }
     }
