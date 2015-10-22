@@ -131,6 +131,20 @@ main {
   main .news_content {
     font-family: "Asap", sans-serif;
     font-size: 24px;
+    }
+main .news_letter {
+  background-image: url("/Upcomer/images/bg1_repeat.png");
+  height: 620px;
+  text-align: center;
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  color: #FFF;
+  font-size: 24px; }
+  main .news_letter .head {
+    font-size: 52px;
+    font-weight: bold;
+    padding-top: 78px; }
+  main .news_letter .content {
     font-weight: 500;
     padding-left: 10px;
     padding-top: 40px;
