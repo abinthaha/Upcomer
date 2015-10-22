@@ -571,6 +571,7 @@ footer .footer_social_links {
       font-size: 18px; }
   main .be_first_to_know {
     height: 500px;
+    padding-top: 0px;
     display: flex;
     flex-direction: column; }
     main .be_first_to_know .wrapper {
