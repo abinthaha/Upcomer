@@ -1,8 +1,9 @@
 function toggleView(e) {
     var x = document.getElementById('main_news_letter');
-    x.className = "news_letter hide_noti";
+    x.style.display = "none";
     var y = document.getElementById('hidden_div');
-    y.className = "news_letter show_noti";
+    y.style.display = "block";
+    y.style.position = "static";
     console.log(x);
 }
 function show_hidden_menu() {
