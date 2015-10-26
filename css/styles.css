@@ -486,7 +486,7 @@ footer .footer_social_links {
       width: 80%; }
     main article img {
       width: 70%;
-      height: 40%;
+      height: auto;
       margin-top: 20px; }
     main article #be_first_img {
       margin-right: 10%; }
