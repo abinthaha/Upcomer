@@ -16,8 +16,6 @@ function show_hidden_menu() {
     }
 }
 function show_personalize() {
-    // window.scrollTo(0,0);
     var element = document.getElementById('#personalize');
     element.scrollIntoView();
-    console.log('click');
 }
