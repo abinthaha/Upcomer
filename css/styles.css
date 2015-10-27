@@ -125,7 +125,7 @@ main {
       padding-top: 78px;
       word-wrap: wrap; }
     main .news_letter #label {
-      margin: 35px 0px; }
+      margin: 35px 0; }
     main .news_letter footer {
       padding-top: 125px; }
       main .news_letter footer img {
@@ -308,7 +308,7 @@ main {
       border-left: 5px solid white; }
       main .timeline .section_content h3 {
         background-color: white;
-        margin: 0px;
+        margin: 0;
         padding: 2%;
         font-family: "Asap", sans-serif;
         font-size: 22px;
@@ -319,7 +319,7 @@ main {
         font-size: 20px;
         color: #999;
         background-color: white;
-        margin: 0px;
+        margin: 0;
         padding: 2%; }
   main .join_us {
     padding: 100px 0;
@@ -410,9 +410,11 @@ footer .footer_social_links {
   .timeline {
     display: flex;
     flex-direction: column; }
-    .timeline .circle_container .top_circle, .timeline .circle_container .bottom_circle {
+    .timeline .circle_container .top_circle,
+    .timeline .circle_container .bottom_circle {
       margin-left: 44%; }
-    .timeline .section_right, .timeline .section_left {
+    .timeline .section_right,
+    .timeline .section_left {
       width: 50%; }
     .timeline .section_left .section_content {
       border-right: 5px solid #fff;
@@ -526,7 +528,7 @@ footer .footer_social_links {
       font-size: 18px; }
   main .be_first_to_know {
     height: 500px;
-    padding-top: 0px;
+    padding-top: 0;
     display: flex;
     flex-direction: column; }
     main .be_first_to_know .wrapper {
@@ -547,7 +549,7 @@ footer .footer_social_links {
       main .be_first_to_know .img img {
         position: static; }
   main .all_in_one_place {
-    padding-top: 0px;
+    padding-top: 0;
     display: flex;
     flex-direction: column; }
     main .all_in_one_place .wrapper {
@@ -610,7 +612,7 @@ footer .footer_social_links {
     bottom: -35px; }
   main .news_letter_footer {
     height: 390px;
-    margin-top: 0px; }
+    margin-top: 0; }
     main .news_letter_footer .newsletter_form {
       padding-top: 80px;
       width: 100%; }
